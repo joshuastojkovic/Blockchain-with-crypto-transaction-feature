@@ -13,7 +13,7 @@ amount = input("how much J2 coin would you like to send?: ")
 #creating the j2 coin block
 class JoshSquaredBlock:
 
-    #in a block it needs the previous block hash and the list of transaction for this block
+    #in a block it needs the previous block hash and the input data of the transaction
     def __init__(self, previous_block_hash, input_data):
         self.previous_block_hash = previous_block_hash
         self.input_data = input_data
